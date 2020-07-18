@@ -15,6 +15,7 @@ namespace CinemaManagement.DAL
             {
                 return ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             }
+            //test
         }
     }
 }
