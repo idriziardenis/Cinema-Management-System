@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>ftp://files.000webhost.com/public_html/CMS2020/|ftp://files.000webhost.com/public_html/CMS/|c:\deploy\CMS2\|c:\deploy\CMS\|D:\CMS\</PublishUrlHistory>
+    <InstallUrlHistory>https://cinemamanagementsystem2020.000webhostapp.com/CMS2020/|https://cinemamanagementsystem2020.000webhostapp.com/CMS/|https://cinemamanagementsystem2020.000webhostapp.com/CinemaMS/|https://cinemamanagementsystem2020.000webhostapp.com/Cinema/|https://ardenis-idrizi.com/CMS/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>https://cinemamanagementsystem2020.000webhostapp.com/CMS2020/|https://cinemamanagementsystem2020.000webhostapp.com/CMS/|https://cinemamanagementsystem2020.000webhostapp.com/CinemaMS/|https://cinemamanagementsystem2020.000webhostapp.com/Cinema/|https://ardenis-idrizi.com/CMS/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

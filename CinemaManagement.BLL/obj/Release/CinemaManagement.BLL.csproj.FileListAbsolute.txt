@@ -1,0 +1,14 @@
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\DB\CinemaManagement.mdf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\DB\CinemaManagement.mdf_log.ldf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\DB\CinemaManagement_log.ldf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.BLL.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.BLL.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.BO.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.DAL.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.BO.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\bin\Release\CinemaManagement.DAL.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\obj\Release\CinemaManagement.BLL.csprojAssemblyReference.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\obj\Release\CinemaManagement.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\obj\Release\CinemaManagement.BLL.csproj.CopyComplete
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\obj\Release\CinemaManagement.BLL.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BLL\obj\Release\CinemaManagement.BLL.pdb

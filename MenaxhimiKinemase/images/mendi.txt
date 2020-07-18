@@ -1,0 +1,95 @@
+
+		$(document).ready(function () {
+			
+
+
+			$('[id*=tos]').change(function () {
+				
+				if ($("#tos1").is(':checked') && $("#tos2").is(':checked')) {
+					$("#submit").removeAttr("disabled");
+				} else {
+					$("#submit").attr("disabled", "disabled");
+				}
+
+				
+
+			});
+
+			
+
+
+
+
+			$("#form").submit(function(e) {
+				$("#submit").attr("disabled", "disabled");
+				e.preventDefault();
+				
+				$.ajax({
+					settings: {
+						async: false
+					},
+					type: 'POST',
+					url: '/a/',
+					data: $("#form").serialize(),
+					success: function(data, textStatus, request) {
+						
+
+						if (request.getResponseHeader('X-Error') != null) {
+							$("#x-error").css("display", "block")
+								.html(errors[request.getResponseHeader('X-Error')]);
+
+							if (request.getResponseHeader('X-Error') === "9") {
+								alert(errors[request.getResponseHeader('X-Error')].replace("<h2>", "").replace("</h2>", ""));
+							}
+						}
+
+						if (request.getResponseHeader('X-Location') != null) {
+							window.location = request.getResponseHeader('X-location');
+						}
+					}
+				})
+				.always(function() {
+					$("#captcha_img").attr("src", "/captcha/?"+(new Date()).getTime());
+					$("#captcha").val("");
+
+					if ($("#tos1").is(':checked') && $("#tos2").is(':checked')) {
+						$("#submit").removeAttr("disabled");
+					}
+				});
+			});
+		});
+
+		var errors = {
+			 
+				"0": "Please fill the form",
+			 
+				"1": "Verifikimi i gabuar.",
+			 
+				"10": "Invalid request.",
+			 
+				"11": "Keni aplikuar një herë. Ju mund te aplikoni pasi te publikohen rezultatet.",
+			 
+				"12": "Nuk ka vend ne provim.",
+			 
+				"13": "Ju lutemi zgjidhni te pakten nje modul.",
+			 
+				"14": "Ju jeni ne listen e zeze te aplikimeve dhe nuk mundeni te aplikoni per momentin.",
+			 
+				"2": "Termini i gabuar.",
+			 
+				"3": "Data e terminit nuk eshte e sakte.",
+			 
+				"4": "Termini i plotë, provoni një datë tjetër.",
+			 
+				"5": "Probleme teknike.",
+			 
+				"6": "Cannot apply more than once in 1 hours",
+			 
+				"7": "Provimi nuk egziston.",
+			 
+				"8": "Keni aplikuar një herë.",
+			 
+				"9": "Aplikim i pa suksesshem. \x3ch2\x3eJu lutemi provoni përsëri.\x3c\/h2\x3e",
+			
+		};
+	

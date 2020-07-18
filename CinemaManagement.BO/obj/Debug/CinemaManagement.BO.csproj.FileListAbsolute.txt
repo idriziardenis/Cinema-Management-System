@@ -1,0 +1,6 @@
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\obj\Debug\CinemaManagement.BO.csprojAssemblyReference.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\obj\Debug\CinemaManagement.BO.csproj.CoreCompileInputs.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\bin\Debug\CinemaManagement.BO.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\bin\Debug\CinemaManagement.BO.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\obj\Debug\CinemaManagement.BO.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.BO\obj\Debug\CinemaManagement.BO.pdb

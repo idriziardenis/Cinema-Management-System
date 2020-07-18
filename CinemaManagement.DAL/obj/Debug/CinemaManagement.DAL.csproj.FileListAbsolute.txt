@@ -1,0 +1,12 @@
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\obj\Debug\CinemaManagement.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\DB\CinemaManagement.mdf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\DB\CinemaManagement.mdf_log.ldf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\DB\CinemaManagement_log.ldf
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\CinemaManagement.DAL.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\CinemaManagement.DAL.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\CinemaManagement.BO.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\bin\Debug\CinemaManagement.BO.pdb
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\obj\Debug\CinemaManagement.DAL.csprojAssemblyReference.cache
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\obj\Debug\CinemaManagement.DAL.csproj.CopyComplete
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\obj\Debug\CinemaManagement.DAL.dll
+C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\CinemaManagement.DAL\obj\Debug\CinemaManagement.DAL.pdb

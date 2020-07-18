@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7912C879-86D1-4566-803A-EC3CC0CA0D96}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MenaxhimiKinemase</RootNamespace>
+    <AssemblyName>MenaxhimiKinemase</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>ftp://files.000webhost.com/public_html/CMS2020/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://cinemamanagementsystem2020.000webhostapp.com/CMS2020/</InstallUrl>
+    <UpdateUrl>https://cinemamanagementsystem2020.000webhostapp.com/CMS2020/</UpdateUrl>
+    <ProductName>Cinema Management System</ProductName>
+    <PublisherName>ArdenisIdrizi</PublisherName>
+    <SuiteName>Cinema Management System</SuiteName>
+    <MinimumRequiredVersion>1.0.0.0</MinimumRequiredVersion>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>91A16B4C9505901CC8E88C17335D00D773FEE734</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CinemaManagement_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\OOP\Bunifu UI WinForms 1.11.5.1\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.Designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingMenu\Book.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingMenu\Book.Designer.cs">
+      <DependentUpon>Book.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingMenu\BookingMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingMenu\BookingMenu.Designer.cs">
+      <DependentUpon>BookingMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingMenu\BookingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BookingMenu\BookingPanel.Designer.cs">
+      <DependentUpon>BookingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\ExcelExport.cs" />
+    <Compile Include="HelpProvider.cs" />
+    <Compile Include="SysLanguage.cs" />
+    <Compile Include="TicketsMenu\CreateTicket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketsMenu\CreateTicket.Designer.cs">
+      <DependentUpon>CreateTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventMenu\EventPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="EventMenu\EventPanel.Designer.cs">
+      <DependentUpon>EventPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleMenu\CancelSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleMenu\CancelSchedule.Designer.cs">
+      <DependentUpon>CancelSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu\ClientsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClientMenu\ClientsPanel.Designer.cs">
+      <DependentUpon>ClientsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallMenu\HallPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HallMenu\HallPanel.Designer.cs">
+      <DependentUpon>HallPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info\Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\MoviePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\MoviePanel.Designer.cs">
+      <DependentUpon>MoviePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleMenu\SchedulePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ScheduleMenu\SchedulePanel.Designer.cs">
+      <DependentUpon>SchedulePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketsMenu\TicketsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketsMenu\TicketsMenu.Designer.cs">
+      <DependentUpon>TicketsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketsMenu\TicketsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TicketsMenu\TicketsPanel.Designer.cs">
+      <DependentUpon>TicketsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersMenu\UsersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersMenu\UsersMenu.Designer.cs">
+      <DependentUpon>UsersMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersMenu\UserPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UsersMenu\UserPanel.Designer.cs">
+      <DependentUpon>UserPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TestingPurposes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestingPurposes.Designer.cs">
+      <DependentUpon>TestingPurposes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersMenu\EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersMenu\EditUser.Designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UsersMenu\AddNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersMenu\AddNewUser.Designer.cs">
+      <DependentUpon>AddNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu\AddNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenu\AddNewClient.Designer.cs">
+      <DependentUpon>AddNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu\ClientsMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenu\ClientsMenu.Designer.cs">
+      <DependentUpon>ClientsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu\EditClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenu\EditClient.Designer.cs">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMenu\ActiveEventsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardMenu\ActiveEventsPanel.designer.cs">
+      <DependentUpon>ActiveEventsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMenu\DashboardMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardMenu\DashboardMenu.Designer.cs">
+      <DependentUpon>DashboardMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMenu\Stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DashboardMenu\Stats.Designer.cs">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMenu\TodayMovies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardMenu\TodayMovies.designer.cs">
+      <DependentUpon>TodayMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMenu\TodayTicketsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DashboardMenu\TodayTicketsPanel.designer.cs">
+      <DependentUpon>TodayTicketsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventMenu\AddNewEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventMenu\AddNewEvent.Designer.cs">
+      <DependentUpon>AddNewEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventMenu\EditEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventMenu\EditEvent.Designer.cs">
+      <DependentUpon>EditEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventMenu\EventMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventMenu\EventMenu.Designer.cs">
+      <DependentUpon>EventMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallMenu\AddNewHall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallMenu\AddNewHall.Designer.cs">
+      <DependentUpon>AddNewHall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallMenu\EditHall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallMenu\EditHall.Designer.cs">
+      <DependentUpon>EditHall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HallMenu\HallMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HallMenu\HallMenu.Designer.cs">
+      <DependentUpon>HallMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\AddNewMovieForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\AddNewMovieForm.Designer.cs">
+      <DependentUpon>AddNewMovieForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\EditMovie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\EditMovie.Designer.cs">
+      <DependentUpon>EditMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\MovieBookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\MovieBookings.Designer.cs">
+      <DependentUpon>MovieBookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\MoviesBookingPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\MoviesBookingPanel.Designer.cs">
+      <DependentUpon>MoviesBookingPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\ShowTimePanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\ShowTimePanel.Designer.cs">
+      <DependentUpon>ShowTimePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\ShowTimes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\MovieExtra\ShowTimes.Designer.cs">
+      <DependentUpon>ShowTimes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieMenu\Movies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovieMenu\Movies.Designer.cs">
+      <DependentUpon>Movies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleMenu\AddNewSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleMenu\AddNewSchedule.Designer.cs">
+      <DependentUpon>AddNewSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleMenu\EditSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleMenu\EditSchedule.Designer.cs">
+      <DependentUpon>EditSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleMenu\SchedulesMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScheduleMenu\SchedulesMenu.Designer.cs">
+      <DependentUpon>SchedulesMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuperAdmin\SuperAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuperAdmin\SuperAdmin.Designer.cs">
+      <DependentUpon>SuperAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\UserSession.cs" />
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingMenu\Book.resx">
+      <DependentUpon>Book.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingMenu\BookingMenu.resx">
+      <DependentUpon>BookingMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingMenu\BookingPanel.resx">
+      <DependentUpon>BookingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.sq-XK.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsMenu\CreateTicket.resx">
+      <DependentUpon>CreateTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventMenu\EventPanel.resx">
+      <DependentUpon>EventPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleMenu\CancelSchedule.resx">
+      <DependentUpon>CancelSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu\ClientsPanel.resx">
+      <DependentUpon>ClientsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallMenu\HallPanel.resx">
+      <DependentUpon>HallPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\MoviePanel.resx">
+      <DependentUpon>MoviePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleMenu\SchedulePanel.resx">
+      <DependentUpon>SchedulePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsMenu\TicketsMenu.resx">
+      <DependentUpon>TicketsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketsMenu\TicketsPanel.resx">
+      <DependentUpon>TicketsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersMenu\AddNewUser.sq-XK.resx">
+      <DependentUpon>AddNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersMenu\UsersMenu.resx">
+      <DependentUpon>UsersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersMenu\UserPanel.resx">
+      <DependentUpon>UserPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TestingPurposes.resx">
+      <DependentUpon>TestingPurposes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersMenu\EditUser.resx">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersMenu\AddNewUser.resx">
+      <DependentUpon>AddNewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu\AddNewClient.resx">
+      <DependentUpon>AddNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu\ClientsMenu.resx">
+      <DependentUpon>ClientsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu\EditClient.resx">
+      <DependentUpon>EditClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardMenu\ActiveEventsPanel.resx">
+      <DependentUpon>ActiveEventsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardMenu\DashboardMenu.resx">
+      <DependentUpon>DashboardMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardMenu\Stats.resx">
+      <DependentUpon>Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardMenu\TodayMovies.resx">
+      <DependentUpon>TodayMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DashboardMenu\TodayTicketsPanel.resx">
+      <DependentUpon>TodayTicketsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventMenu\AddNewEvent.resx">
+      <DependentUpon>AddNewEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventMenu\EditEvent.resx">
+      <DependentUpon>EditEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventMenu\EventMenu.resx">
+      <DependentUpon>EventMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallMenu\AddNewHall.resx">
+      <DependentUpon>AddNewHall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallMenu\EditHall.resx">
+      <DependentUpon>EditHall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HallMenu\HallMenu.resx">
+      <DependentUpon>HallMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\AddNewMovieForm.resx">
+      <DependentUpon>AddNewMovieForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\EditMovie.resx">
+      <DependentUpon>EditMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\MovieExtra\MovieBookings.resx">
+      <DependentUpon>MovieBookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\MovieExtra\MoviesBookingPanel.resx">
+      <DependentUpon>MoviesBookingPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\MovieExtra\ShowTimePanel.resx">
+      <DependentUpon>ShowTimePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\MovieExtra\ShowTimes.resx">
+      <DependentUpon>ShowTimes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieMenu\Movies.resx">
+      <DependentUpon>Movies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ScheduleMenu\AddNewSchedule.resx">
+      <DependentUpon>AddNewSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleMenu\EditSchedule.resx">
+      <DependentUpon>EditSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScheduleMenu\SchedulesMenu.resx">
+      <DependentUpon>SchedulesMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuperAdmin\SuperAdmin.resx">
+      <DependentUpon>SuperAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="CinemaManagement_TemporaryKey.pfx" />
+    <None Include="CMS_Manual.chm" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\CinemaManagement.BO.Technology.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaManagement.BLL\CinemaManagement.BLL.csproj">
+      <Project>{3470064b-1452-49ad-a608-b1163fb1799d}</Project>
+      <Name>CinemaManagement.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CinemaManagement.BO\CinemaManagement.BO.csproj">
+      <Project>{853ac75f-96f6-4b41-a169-f7787f2dc79a}</Project>
+      <Name>CinemaManagement.BO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\CineflexxSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\gethelp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\event.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\movie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\booking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\hall1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\date.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chair3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chair.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chair1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\chair2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostwatched.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostratted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\info1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Bookings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Cineflexx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\usa_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\kosovo_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\client.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\schedules1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favico.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
