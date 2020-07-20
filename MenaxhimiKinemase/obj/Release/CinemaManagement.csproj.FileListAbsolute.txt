@@ -69,9 +69,6 @@ C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\MenaxhimiKinemase\bin\Release\Mena
 C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\MenaxhimiKinemase\bin\Release\MenaxhimiKinemase.application
 C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\MenaxhimiKinemase\obj\Release\MenaxhimiKinemase.exe.manifest
 C:\Users\Ardenis\Desktop\IT\MenaxhimiKinemase\MenaxhimiKinemase\obj\Release\MenaxhimiKinemase.application
-C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\DB\CinemaManagement.mdf
-C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\DB\CinemaManagement.mdf_log.ldf
-C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\DB\CinemaManagement_log.ldf
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\MenaxhimiKinemase.exe.config
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\MenaxhimiKinemase.exe.manifest
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\MenaxhimiKinemase.application
@@ -83,7 +80,6 @@ C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\CinemaManagement.DAL.dll
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\CinemaManagement.BLL.pdb
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\CinemaManagement.BO.pdb
-C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\Bunifu_UI_v1.5.3.xml
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\bin\Release\CinemaManagement.DAL.pdb
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\obj\Release\CinemaManagement.csprojAssemblyReference.cache
 C:\Users\Ardenis\Documents\GitHub\CMS\Cinema-Management-System\MenaxhimiKinemase\obj\Release\MenaxhimiKinemase.Admin.resources
